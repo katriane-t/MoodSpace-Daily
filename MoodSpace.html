@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+                font: 500;
+                font-size: 28px;
+            }
+
+            h2{
+                text-align: center;
+                font-size: 18px;
+            }
+
+            p{
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid black;
+                padding: 14px;
+            }
+
+            img{
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            p{
+                font-size: 14px;
+            }
+            
+
+            button{
+                width: 100%;
+                background-color: aquamarine;
+                border: none;
+                padding: 15px;
+                font-size: 18px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+                margin: 20px 0;
+            }
+
+            footer{
+                text-align: center;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+    MoodSpace - pick a colour and be inspired today.
+</h1>
+<h2>
+    <img src="https://uploads-ssl.webflow.com/629e31300b1d6d4f2cd6daab/62ab43e2f173d31a934e68f4_4vgKge8OhPYA7PMS9r0IoH6qYc8eFSTInyCOA6Y10UAeJo3vpA-WNslm8Y6PooiW8dLsYXsjfRp5wiGC06uTFgW3tBlzQNjkqGcRRFboBI0Jbeqh2F6sOuQ9xrXTwdstmQ_J8Drds24mVluqIQ.jpeg" 
+    alt=""
+    width="300"
+    >
+<br>
+Colour psychology is the study of hues as a determinant of human behavior. Colour influences perceptions, and have qualities that can cause certain emotions in people. How color influences individuals may differ depending on age, gender, and culture. Although color associations can vary contextually between cultures, color preference is relatively uniform across gender and race.
+</h2>
+<p>
+What colour do you feel most drawn to today? Click on the Subscribe button below and type in the colour of your choice and we'll send you an inspirational quote catered to your mood of the day!
+</p>
+<br>
+<button>
+    Subscribe to our newsletter
+</button>
+
+<footer>
+    Coded by 
+    <a href="https://katrianetsang5.wixsite.com/my-site">
+      Katrianet  
+    </a>
+    
+</footer>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Color_psychology#:~:text=People%20who%20are%20cold%20often,while%20extroverts%20prefer%20warmer%20colors.">
+    Learn more about Colour Psychology and it's origins on wikipedia
+</a>
+<script>
+    function subscribe() {
+        prompt("What is your name?");
+        prompt("What is your email address?");
+        prompt("Please type in the colour that best describes your current mood")
+
+        alert("Thanks, your insipirational quote of the day is on its way! Have a fantabulous day.")
+    }
+
+    let button = document.querySelector("button");
+    button.addEventListener("click", subscribe);
+</script>
+    </body>
+</html>
